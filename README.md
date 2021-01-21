@@ -1,0 +1,2 @@
+# myai
+Artificial intelligence experiments
