@@ -1,4 +1,5 @@
 # Original description: https://towardsdatascience.com/cryptocurrency-price-prediction-using-lstms-tensorflow-for-hackers-part-iii-264fcdbccd3f
+# Corresponding colab: https://colab.research.google.com/drive/1mUMS6A95yM-YEiQB8FN-CdBdlH5Z_ADG#scrollTo=VBXq-Wb_K1XR
 import requests
 import io
 import pandas as pd
