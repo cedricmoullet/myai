@@ -5,6 +5,8 @@ import matplotlib.dates as mdates
 import seaborn as sns
 from datetime import datetime
 
+# Load data
+
 path = 'https://drive.google.com/uc?export=download&id=1mQr7hY6yO88nv5SmLbYBRk14cJJ_FQnP'
 
 s = requests.get(path).content
@@ -15,6 +17,7 @@ df = pd.read_csv(io.StringIO(s.decode('utf-8')),
                  parse_dates=['Date'],
                  date_parser=dateparse)
 
+# Plot data
 print(df.info())
 
 ax = df.plot(x="Date", y="BTC")
